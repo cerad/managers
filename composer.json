@@ -43,7 +43,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Bordeux\\Bundle\\GeoNameBundle\\": "src2/"
         }
     },
     "autoload-dev": {

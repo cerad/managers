@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Entity;
+namespace Bordeux\Bundle\GeoNameBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\ProductRepository")
+ * @ORM\Entity()
  */
-class Product
+class Admin
 {
     /**
      * @ORM\Id()
